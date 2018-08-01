@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400|Raleway");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400|Oswald:300,700");
 body {
   background-color: #2b2b2b;
   color: #eee;
@@ -47,7 +47,7 @@ a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Oswald', sans-serif;
   position: relative;
   min-height: 300px; }
   .heading .logo {
@@ -55,9 +55,8 @@ a {
   .heading .brief {
     margin: 8vh auto;
     padding-left: 5rem;
-    font-size: 1.2rem;
-    line-height: 2rem;
-    letter-spacing: 0.3rem; }
+    font-size: 1.4rem;
+    line-height: 2rem; }
 
 .details {
   text-align: left;
