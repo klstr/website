@@ -8,10 +8,12 @@
     <title>klstr.io</title>
     <link href="/stylesheets/site.css" rel="stylesheet" />
     <script src="/javascripts/site.js"></script>
+    <script src="/javascripts/particles.min.js"></script>
   </head>
   <body>
-    <div class="section a">
-  <div class="heading">
+    <div class="section bg-a">
+  <div id="particles"></div>
+  <div class="content heading">
     <img class="logo" src="/images/logo.png"/>
     <div class="brief">
       klstr uses kubernetes to help your engineering team 
@@ -21,8 +23,8 @@
   </div>
 </div>
 
-<div class="section b">
-  <div class="details">
+<div class="section bg-b">
+  <div class="content details">
     <p>
       Install and Manage your kubernetes cluster on both managed environments like GKE, EKS or AKS 
       or roll your own on EC2, GCE or in your datacenter on top of VMWare VSphere or OpenStack. 
@@ -84,8 +86,8 @@
 </div>
 
 
-<div class="section c">
-  <div class="offerings">
+<div class="section bg-c">
+  <div class="content offerings">
     <div class="consulting">
       <img src="/images/implement.svg"/>
       We can help you dockerize and migrate your applications to kubernetes. We can help your development team to adapt your existing applications and services
@@ -104,5 +106,6 @@
   <a href="https://tarkalabs.com" target="_blank"><img src="/images/tarkalabs.png"/></a>
 </div>
 
+    <script src="/javascripts/init.js"></script>
   </body>
 </html>

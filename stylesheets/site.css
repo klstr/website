@@ -13,17 +13,28 @@ a {
   a:focus, a:hover {
     color: rgba(0, 170, 255, 0.6); }
 
+.bg-a {
+  background-color: #222; }
+
+.bg-b {
+  background-color: #2b2b2b; }
+
+.bg-c {
+  background-color: #333; }
+
 .section {
-  padding: 0 2rem; }
-  .section.a {
-    background-color: #222; }
-  .section.b {
-    background-color: #2b2b2b; }
-  .section.c {
-    background-color: #333; }
-  .section > div {
+  padding: 0 2rem;
+  position: relative; }
+  .section > .content {
     max-width: 900px;
     margin: auto; }
+
+#particles {
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100vh;
+  width: 100vw; }
 
 .heading {
   display: -webkit-box;
@@ -36,7 +47,9 @@ a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  font-family: 'Raleway', sans-serif; }
+  font-family: 'Raleway', sans-serif;
+  position: relative;
+  min-height: 300px; }
   .heading .logo {
     height: 150px; }
   .heading .brief {
