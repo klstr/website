@@ -63,6 +63,30 @@ a {
     font-size: 1.3rem;
     line-height: 2rem;
     //letter-spacing: 0.2rem;
+    #form-container {
+      .nospam,.thanks {
+        font-size: 0.8rem;
+      }
+    }
+    form {
+      margin-top: 1rem;
+      input[type=email] {
+        font-size: 1.2rem;
+        border: 0px;
+        padding: 0.3rem;
+        font-family: 'Oswald', sans-serif;
+      }
+      input[type=submit] {
+        font-family: 'Oswald', sans-serif;
+        background-color: #00AAFF;
+        color: #ffffff;
+        border: 0px;
+        font-size: 1.3rem;
+        padding: 0.3rem 0.8rem;
+        margin-left: 1rem;
+        font-weight: 700;
+      }
+    }
   }
 }
 
